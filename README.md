@@ -1,10 +1,11 @@
 # Origin
 
-This pack add most common 7 pages to laravel project with basic layouts.
+This pack add most common pages to laravel project with basic layouts.
 
 ## Getting Started
 
-This pages:
+This package add most common pages to your project with basic starter layouts. 
+Default, includes 7 pages. You can add more pages with manually.   
 
 Home 		-> ```/start```
 
@@ -20,8 +21,8 @@ Privacy 	-> ```/privacy```
 
 Sitemap 	-> ```/sitemap```
 
+##### You can add more pages, change titles or routes with vendor:publish 
 
-##### You can add more pages, change titles or routes with vendor:publish  
 
 ### Prerequisites
 
@@ -39,8 +40,6 @@ Adding require to composer.json:
 ```
 "bidibidi/origin": "*"
 ```
-
-And
 
 ```
 composer update
