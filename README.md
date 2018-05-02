@@ -1,63 +1,70 @@
-# origin
-Add most common pages to laravel
+# Origin
 
 This pack add most common 7 pages to laravel project with basic layouts.
 
+## Getting Started
+
 This pages:
 
-Home 		-> /start
+Home 		-> ```/start```
 
-About Us 	-> /about-us
+About Us 	-> ```/about-us```
 
-Contact 	-> /contact
+Contact 	-> ```/contact```
 
-FAQ 		  -> /faq
+FAQ 		  -> ```/faq```
 
-Terms 		-> /terms
+Terms 		-> ```/terms```
 
-Privacy 	-> /privacy
+Privacy 	-> ```/privacy```
 
-Sitemap 	-> /sitemap
-
-
-You can add more pages, change titles or routes with vendor:publish  
+Sitemap 	-> ```/sitemap```
 
 
-//USAGE
+##### You can add more pages, change titles or routes with vendor:publish  
 
-Firstly create laravel project: laravel new sample
+### Prerequisites
 
-From Github :
+You need to laravel framework
 
-1- Add repositories to composer.json:
+```
+laravel new sample
+```
 
-					"repositories": [
-					   {
-					     "url": "https://github.com/Bidibidi/origin.git",
-					     "type": "git"
-					    }
-					 ],
+### Installing
+
+Adding require to composer.json: 
 
 
- 2- Add require to composer.json: 
+```
+"bidibidi/origin": "*"
+```
 
-          "bidibidi/origin": "*"
- 
- 
- 3- composer update
- 
- 4- php artisan serve
- 
- 5- http://localhost:8000/start
- 
+And
 
-// OPTIONAL
+```
+composer update
+```
 
- 1-config/app.php and Add Provider: 
-	
-	Bidibidi\Origin\BidibidiOriginServiceProvider::class,
+```
+php artisan serve
+```
 
-// PUBLISH
+
+## Running the tests
+
+http://localhost:8000/start
+
+
+## Deployment
+
+Below Laravel 5.5 open ```config/app.php``` and add this line in ```providers``` section
+
+```
+Bidibidi\Origin\BidibidiOriginServiceProvider::class,
+```
+
+##### PUBLISH
 
 	If you want more settings, language and pages :
 
@@ -65,3 +72,15 @@ From Github :
 	Config : php artisan vendor:publish --tag=origin-config
 	Assets : php artisan vendor:publish --tag=origin-public
 	Views  : php artisan vendor:publish --tag=origin-views
+
+
+
+## Authors
+
+* **Bidibidi** - *Initial work* - [Bidibidi](https://github.com/Bidibidi)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
