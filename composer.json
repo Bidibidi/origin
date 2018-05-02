@@ -1,0 +1,42 @@
+{
+    "name": "bidibidi/origin",
+    "description": "Add most common pages (about-us, contact.. etc) with layouts.",
+    "keywords": [
+        "page",
+        "laravel",
+        "layouts",
+        "starter",
+        "bidibidi"
+    ],
+    "homepage": "https://github.com/Bidibidi/origin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bidibidi",
+            "email": "bidibidi.dev@gmail.com",
+            "homepage": "https://bidibidi.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev-master",
+
+    
+    "autoload": {
+    "psr-4": {
+    "Bidibidi\\Origin\\": "src/"
+             }
+                },
+
+    "require": { 
+
+                },
+
+    "extra": {
+    "laravel": {
+      "providers": [
+        "Bidibidi\\Origin\\BidibidiOriginServiceProvider"
+      ]
+    }
+  }
+
+}
