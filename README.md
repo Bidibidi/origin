@@ -41,7 +41,7 @@ From Github :
 
  2- Add require to composer.json: 
 
-          "bidibidi/origin": "^1.0.*"
+          "bidibidi/origin": "*"
  
  
  3- composer update
