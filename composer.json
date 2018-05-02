@@ -1,6 +1,6 @@
 {
     "name": "bidibidi/origin",
-    "description": "Add most common pages (about-us, contact.. etc) with layouts.",
+    "description": "Add most common pages (about-us, contact, faq.. etc) to laravel project with basic layouts.",
     "keywords": [
         "page",
         "laravel",
