@@ -9,7 +9,8 @@ Use 'page' => 	[
 				'pageLinkName', 
 				'pageTitle', 
 				'pageDesc', 
-				'pageh1', 'pageContent'
+				'pageh1', 
+				'pageContent'
 				],
 
 */
@@ -20,8 +21,8 @@ return [
 				'Home', // pageLinkName
 				'Index Title', // pageTitle
 				'This index page meta desc', // pageDesc 
-				'H1 Title', // paheH1
-				'Index page content' // pageContent
+				'Index Page H1 Title', // pageH1
+				'Index page contents' // pageContent
 				],
 
 	'aboutus' =>  [
@@ -29,8 +30,8 @@ return [
 				'About us', // pageLinkName
 				'About us Title', // pageTitle
 				'This About us page meta desc', // pageDesc 
-				'H1 Title', // paheH1
-				'About us page content' // pageContent
+				'About us Page H1 Title', // paheH1
+				'About us page contents' // pageContent
 				],
 
 	'contact' =>  [
@@ -38,7 +39,7 @@ return [
 				'Contact', // pageLinkName
 				'Contact Title', // pageTitle
 				'This contact page meta desc', // pageDesc 
-				'H1 Title', // paheH1
+				'Contactt H1 Title', // pageH1
 				'Contact page content' // pageContent
 				],				
 
@@ -47,7 +48,7 @@ return [
 				'Sitemap', // pageLinkName
 				'Sitemap Title', // pageTitle
 				'This sitemap page meta desc', // pageDesc 
-				'H1 Title', // paheH1
+				'Sitemap H1 Title', // pageH1
 				'Sitemap page content' // pageContent
 				],
 
@@ -56,7 +57,7 @@ return [
 				'FAQ', // pageLinkName
 				'Faq Title', // pageTitle
 				'This faq page meta desc', // pageDesc 
-				'H1 Title', // paheH1
+				'FAQ Title', // pageH1
 				'Faq page content' // pageContent
 				],
 
@@ -66,7 +67,7 @@ return [
 				'Terms', // pageLinkName
 				'Terms Title', // pageTitle
 				'This terms page meta desc', // pageDesc 
-				'H1 Title', // paheH1
+				'Terms Page H1 Title', // pageH1
 				'Terms page content' // pageContent
 				],
 
@@ -75,13 +76,13 @@ return [
 				'Privacy', // pageLinkName
 				'Privacy Title', // pageTitle
 				'This privacy page meta desc', // pageDesc 
-				'H1 Title', // paheH1
+				'Privacy Page H1 Title', // pageH1
 				'Privacy page content' // pageContent
 				],
 
 	
 
-	// Other Language
+	// Others
 	'copyright' => 'Copyright © Bidibidi 2018',
 
 ];
