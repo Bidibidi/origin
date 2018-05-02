@@ -12,7 +12,7 @@ return [
 // For example : http://sitename.com/about-us
 // for enable  : 1
 // for disable : 0
-'origin-pages-active' => '0',
+'origin-pages-active' => '1',
 
 // Routes your pages
 'route-index' 	=> 'start',

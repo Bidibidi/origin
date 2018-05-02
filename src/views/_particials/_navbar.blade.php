@@ -18,9 +18,9 @@
                         <!-- Authentication Links -->
 
 
-                            <li><a href="{{ route('index') }}">{{  trans('bidibidi-origin-lang::origin-lang.index.1') }}</a></li>
-                            <li><a href="{{ route('aboutus') }}">{{  trans('bidibidi-origin-lang::origin-lang.aboutus.1') }}</a></li>
-                            <li><a href="{{ route('aboutus') }}">{{  trans('bidibidi-origin-lang::origin-lang.contact.1') }}</a></li>                            
+                            <li><a class="nav-link" href="{{ route('index') }}">{{  trans('bidibidi-origin-lang::origin-lang.index.1') }}</a></li>
+                            <li><a class="nav-link" href="{{ route('aboutus') }}">{{  trans('bidibidi-origin-lang::origin-lang.aboutus.1') }}</a></li>
+                            <li><a class="nav-link" href="{{ route('aboutus') }}">{{  trans('bidibidi-origin-lang::origin-lang.contact.1') }}</a></li>                            
 
 
                  </ul>
