@@ -28,7 +28,7 @@ class BidibidiOriginServiceProvider extends ServiceProvider
         $this->publishes([__DIR__ . '/config' => config_path()], 'origin-config');
 
         $this->loadViewsFrom(__DIR__ . '/views', 'bidibidi-origin');
-        $this->loadTranslationsFrom(__DIR__.'/lang', 'bidibidi-origin-lang');
+        $this->loadTranslationsFrom(__DIR__.'/lang', 'bidibidi-origin');
 
     }
 
