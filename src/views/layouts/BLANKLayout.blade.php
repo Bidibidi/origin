@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('bidibidi-origin::layouts.app')
 @section('titlePage') 		@endsection
 @section('metatag') 		@endsection
 @section('style') 			@endsection
