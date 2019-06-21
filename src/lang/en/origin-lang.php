@@ -83,6 +83,6 @@ return [
 	
 
 	// Others
-	'copyright' => 'Copyright © Bidibidi 2018',
+	'copyright' => 'Copyright © Bidibidi '.date('Y'),
 
 ];
